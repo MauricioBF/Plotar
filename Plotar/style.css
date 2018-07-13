@@ -1,0 +1,77 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    display: table;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+select {
+    position: fixed;
+    top: 100px;
+    left: 100px;
+    height: 20px;
+    width: 200px;
+    background-color: white;
+    border-radius: 5px;
+    outline: none !important;
+	border: 1px solid rgba(0, 0, 0);
+}
+#grafico {
+    position: fixed;
+    top: 130px;
+    left: 100px;
+    height: 400px;
+    width: 750px;
+    outline: none !important;
+	border: 0;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+	border-left: 1px solid rgba(0, 0, 0, 0.5);
+}
+.graficobarra {
+    display: inline-block;
+    position: relative;
+    height: 100%;
+    width: 53px;
+    margin: 0 0 0 5px;
+    padding: 0;
+}
+.barra {
+    display: inline-block;
+    position: absolute;
+    bottom: 0.5px;
+    margin: 0;
+    padding: 0;
+}
+#indice {
+    position: fixed;
+    top: 130px;
+    left: 65px;
+}
+#indice h5 {
+    text-align: right;
+    margin: 2px 0 9px 0;
+}
+#anos {
+    position: fixed;
+    top: 532px;
+    left: 105px;
+}
+#anos h5 {
+    float: right;
+    margin: 0 17.5px 0 18px;
+}
+#lista {
+    position: relative;
+    top: 600px;
+    left: 100px;
+    width: 750px;
+}
+#lista h3{
+    display: inline-block;
+    margin: 0 7.5px 0 7.5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
